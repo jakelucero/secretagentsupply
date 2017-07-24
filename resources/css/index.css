@@ -139,3 +139,52 @@ nav span{
 .container .copy{
   padding: 12px 0px 12px 0.5em;
 }
+@media only screen and (max-width: 1024px) {
+  .item{
+    width: 47%;
+   }
+   .info2{
+     width: 35%
+   }
+   body{
+     font-size: 16px;
+   }
+   .mobile-nav{
+     display: block;
+     text-align: center;
+   }
+   nav{
+     display: none;
+   }
+}
+@media only screen and (max-width: 470px) {
+  span h3{
+    font-family: Helvetica;
+    font-size: .77rem;
+    font-weight: bold;
+  }
+  span h1{
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .background{
+    height: 10rem;
+  }
+  .mainbanner{
+    height: 15rem;
+  }
+  .item{
+    width: 90%;
+  }
+  .info{
+    width: 90%
+  }
+  .copy{
+    text-align: center;
+  }
+  .announcement span{
+    padding-top: 1rem;
+    padding-left: 2rem;
+  }
+}
